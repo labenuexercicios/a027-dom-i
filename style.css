@@ -1,0 +1,35 @@
+main { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+section {
+    display: grid;
+    grid-template-rows: 1fr 60%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 25vw;
+    height: 30vh;
+    background-color: rgb(121, 177, 255);
+    border-radius: 5px;
+}
+
+button, input {
+    border-radius: 4px;
+    padding: 5px;
+    border-style: none;
+    width: 10vw;
+}
+
+nav {
+    grid-column: 2/3;
+}
+
+ul {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
