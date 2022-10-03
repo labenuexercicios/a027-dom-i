@@ -12,12 +12,12 @@ const frutas = ["laranja", "limão", "uva"];
 
 //exercicio 01
 
-// function handleFrutas () {
-//     fruta1.innerHTML = frutas[0]
-//     fruta2.innerHTML = frutas[1]
-//     fruta3.innerHTML = frutas[2] 
-// }
-// handleFrutas()
+function handleFrutas () {
+    fruta1.innerHTML = frutas[0]
+    fruta2.innerHTML = frutas[1]
+    fruta3.innerHTML = frutas[2] 
+}
+handleFrutas()
 
 //Exercicio 01 com for
     for (const fruta of frutas) {
