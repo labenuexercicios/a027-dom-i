@@ -5,4 +5,15 @@ Depois disso, escreva **No DevTools** o código necessário para que seja possí
 Cole o comando aqui:
 ```jsx
     cole o código JS nesta área.
+
+
+    const imprimir = function () {
+
+    console.log(document.getElementById("fruta").value)
+
+
+    HTML:
+    <input onkeydown="imprimir()" id="fruta" name="fruta" type="text" value="Morango" />
+
+}
 ```
