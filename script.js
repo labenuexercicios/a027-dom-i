@@ -20,5 +20,3 @@ const addFruta = () => {
     quartaFruta.innerHTML = novaFruta.value
     console.log(novaFruta.value)
 }
-
-consonle.log(frutas)
