@@ -15,3 +15,9 @@ const frutasTres =  document.getElementById("fruta-3")
 frutasTres.innerHTML += frutas[2]
 
 
+// EXERCICIO II
+
+const inputFrutinhas = document.getElementById("frutis")
+console.log(inputFrutinhas.value)
+
+
